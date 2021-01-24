@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@350&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+.grey {
+	color: grey; /* xP */
+}
+
+#other {
+	flex: 1;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.tab {
+	color: black;
+	font-family: 'Nunito';
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 1px;
+	margin-left: 1px;
+	font-size: 17px;
+	background: transparent;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.tab:hover {
+	color: #ffffff;
+	background: #3b4252ff;
+}
+
+.right-tab {
+	font-family: 'Nunito';
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 1px;
+	margin-left: 1px;
+	font-size: 20px;
+	color: #ffffff;
+	background: #3b4252ff;
+	border-radius: 5px;
+	transition: 0.3s;
+	box-shadow: 2px 2px 2px rgb(161, 161, 161);
+}
+
+.right-tab:hover {
+	color: #ffffff;
+	background: rgb(45, 50, 61);
+	box-shadow: 3px 3px 3px rgb(161, 161, 161);
+}
+
+.spacer {
+	width: 10px;
+}
+
+#panel {
+	display: flex;
+	align-items: center;
+	background: white;
+	padding: 20px;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0px 0px 15px rgb(63, 63, 63);
+}
+
+#wavy {
+	position: fixed;
+	z-index: -1;
+	margin-top: 50px;
+	height: 500px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+#titleimage {
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 520px;
+	object-fit: cover;
+}
+
+#titletext {
+	position: absolute; 
+	margin-left: auto; 
+	margin-right: auto;
+	top: 250px;
+	left: 50%;
+	-ms-transform: translate(-50%, -25%);
+	transform: translate(-50%, -25%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+}
+#titletextleft {
+	display: flex;
+	align-items: center;
+}
+
+#titlelogoimage {
+	background-attachment: fixed;
+}
+
+#titletextname {
+	text-transform: uppercase;
+	color: white;
+	font-family: "Nunito";
+	font-size: 120px;
+	margin-left: 20px;
+}
+#titletextslogan {
+	color: white;
+	font-family: "Nunito";
+	font-size: 40px;
+}
+
+.name {
+	text-transform: uppercase;
+	color: black;
+	font-size: 30px;
+	font-family: "Nunito";
+	margin-left: 10px;
+}
+
